@@ -1,0 +1,49 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+ts-out
+target
+package-lock.json
+Cargo.lock
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea
+.DS_Store
+**/.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Canisters
+/src/declarations
+canister_ids.json
+.dfx
+.vessel
+.mops
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Build files (to be added from Unity)
+src/assets/Build/unity_build.data
+src/assets/Build/unity_build.framework.js
+src/assets/Build/unity_build.wasm
