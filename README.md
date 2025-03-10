@@ -2,7 +2,7 @@
 
 **BallClean** is a relaxing and fun game built using **Unity** and the **iCVR framework**. The game is designed to help players unwind and enjoy a unique gameplay experience where they use a basketball to clean a basketball court. It combines the satisfaction of cleaning with the fun of basketball mechanics, creating a calming yet engaging experience.
 
-![Gameplay Screenshot 2](icvr-canister/src/assets/Game.PNG)
+![Gameplay Screenshot 2](icvr-canister/src/assets/gamenow.PNG)
 
 
 ## Game Overview
