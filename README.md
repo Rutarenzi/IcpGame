@@ -25,6 +25,27 @@
 - **iCVR Framework**: The iCVR framework is used to enhance interactivity and optimize performance.
 - **C#**: All game logic and mechanics are implemented using C#.
 - **Unity Physics**: Realistic ball movement and interactions are achieved using Unity's physics system.
+### Prerequisites
+
+requirements:
+
+- **dfx**: You have installed the latest version of the DFINITY Canister SDK, `dfx`. You can download it from the DFINITY SDK page. [installation guide](https://demergent-labs.github.io/azle/get_started.html#installation)
+
+ ```
+  use version dfx 0.24.3
+ ```
+- **Node.js**: You have installed Node.js, version 18 or above.
+```
+v22.14.0
+
+```
+
+ - podman verion use
+
+ ```
+  podman version 4.9.3
+  
+ ```
 
 ## Installation
 1. Clone the repository:
@@ -36,8 +57,27 @@
     npm run build
     npm run start
    ```
-2. Browse  http://{Frontend canister id}.localhost:4943/
-3. Play using arrow key on you keyboard
+   ## BROWSE
+1. Recommend to use chrome browser
+2.  Go to Chrome and enter:
+```
+chrome://flags/
+```
+4. Search for:
+```
+ - WebXR Device API – Set to Enabled
+
+- (Optional) WebXR AR Module and WebXR Hand Input – Enable if needed
+```
+
+Then restart Chrome.
+
+NB: wait full deployment in terminal you will be prompted 
+ this url example 
+ ``` http://bkyz2-fmaaa-aaaaa-qaaaq-cai.localhost:4943/```
+
+5. Browse  http://{Frontend canister id(this vary per computer use yours)}.localhost:4943/
+6. Play using arrow key on you keyboard
 
 ---
 
